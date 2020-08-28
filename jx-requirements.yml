@@ -10,13 +10,13 @@ cluster:
   chartRepository: http://bucketrepo/bucketrepo/charts/
   clusterName: "kind"
   devEnvApprovers:
-  - todo
-  environmentGitOwner: "todo"
+  - TueDissingWork
+  environmentGitOwner: "TueDissingWork"
   gitKind: github
   gitName: github
   gitServer: https://github.com
   namespace: jx
-  provider: minikube
+  provider: kubernetes
 environments:
 - key: dev
   owner: ""
